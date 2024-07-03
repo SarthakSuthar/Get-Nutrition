@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Nutrition"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#8EC88D"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="#8EC88D"
+        android:gravity="center"
+        >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_WhatIsNutrition"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Nutrition?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Malnutrition"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is malnutrition?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Sources"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sources of nutrition"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Necessity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Necessity of nutritions"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Deficiency"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cause of deficiency"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+        </Space>
+
+
+
+    </LinearLayout>
+</LinearLayout>

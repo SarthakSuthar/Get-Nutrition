@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SourcesOfNutrition"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sources of nutrition"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="#8EC88D">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F3CA52"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="0dp"
+            app:contentPadding="15dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The body can get nutrients from a variety of foods, including fruits and vegetables, lean meats, fish, whole grains, dairy, legumes, nuts, and seeds. Different foods provide different nutrients, such as:\n
+\nProtein: \nA key part of a balanced diet, protein provides energy and helps build muscle.\n
+\nVitamins: \nAn important source of nutrition, vitamins can help prevent diseases like poor bone development, blindness, and a weakened immune system. Vitamin C, in particular, is a strong antioxidant that can help keep teeth and gums healthy.\n
+\nCalcium: \nA dietary mineral that's essential for healthy muscles, heart, and digestive system, calcium is also the building material for bones and supports blood cell function.\n
+\nCarbohydrates: \nAlong with protein and fats, carbohydrates are one of the three main nutrients found in food, and they're the body's main source of energy.\n
+\nFat: \nAnother of the three main macronutrients, fat helps the body absorb and transport nutrients, and provides energy for physiological functions. Fats also break down into essential fatty acids (EFAs), which are necessary for good health.\n
+\nWater: \nIn addition to making up 60% of the human body, water provides essential nutrients and minerals. Drinking pure water eight times a day is considered key to good health.\n
+\nMagnesium: \nAn essential mineral that the body can only get from food, magnesium helps metabolize carbohydrates and fat, and synthesize protein and DNA. It can be found in whole grains, green leafy vegetables, legumes, salmon, and some fruits.\n
+\nPotassium: \nHelps rid the body of excess sodium and relaxes blood vessels. Foods like bananas, spinach, oranges, and broccoli are all good sources of potassium."
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+
+
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
